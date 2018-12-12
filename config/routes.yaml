@@ -1,0 +1,19 @@
+home:
+    path: /
+    controller: App\Controller\HomeController::home
+create:
+    path: /create
+    controller: App\Controller\CrudController::create
+read:
+    path: /read
+    controller: App\Controller\CrudController::read
+update:
+    path: /update
+    controller: App\Controller\CrudController::update
+update-single:
+    path: /update-single/{id}
+    controller: App\Controller\CrudController::updateSingle
+delete:
+    path: /delete
+    controller: App\Controller\CrudController::delete
+
